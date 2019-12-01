@@ -1,41 +1,146 @@
 body {
   margin: 0;
-  text-align:center;
+  text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
 
-h1{
+h1 {
+  color: #66BFBF;
   font-family: 'Herr Von Muellerhoff', cursive;
-  margin-top: 0;
+  font-size: 5.62em;
+  line-height: 0;
+  margin: 50px auto 0 auto;
 }
 
 h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
+
 p {
   font-family: 'Nunito Sans', sans-serif;
 }
 
+.nerd {
+  font-style:oblique;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.sep {
+  border-color: #EAF6F6;
+  border-style: dotted none none none;
+  border-width: 5px;
+  width:40px;
+}
+
+.my-skills {
+  color:#66BFBF;
+}
+
+.profile-desc {
+color: #40514E;
+}
+
+.profile-img {
+  border-radius: 20%;
+}
+
+.skill-img-emb {
+  height: 25%;
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+}
+
+.skill-img-tv {
+  height: 25%;
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.skill-row{
+  width: 50%;
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .top-container {
-  background-color: cornsilk;
-  padding-top:150px;
-  position:relative;
-}
-
-.middle-container {
-}
-
-.bottom-container {
+  background-color: #EAF6F6;
+  padding-top: 150px;
+  position: relative;
 }
 
 .top-cloud {
-  position:absolute;
-  right:300px;
-  top:50px;
+  position: absolute;
+  right: 300px;
+  top: 50px;
 }
 
 .bottom-cloud {
-  position:absolute;
-  left:300px;
-  bottom:300px;
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
 }
+
+.bottom-container {
+  background-color: #66BFBF;
+  line-height: 1;
+  padding: 20px 0 10px 0;
+}
+
+.footer-link {
+  color: #11999E;
+  line-height: 1;
+  margin: auto 20px auto 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #EAF6F6;
+  line-height: 1.0;
+  margin-bottom: 4px;
+}
+
+.attribution {
+  color: #EAF6F6;
+}
+
+.contact-me {
+  margin: 50px auto 50px auto;
+  width: 50%;
+}
+
+.btn {
+  border-style:solid;
+  border-radius: 10px;
+  border-color:  #66BFBF;
+  background-color: #66BFBF;
+  height:40px;
+  width:160px;
+}
+
+.btn-a {
+  color: white;
+  text-decoration: none;
+}
+/*
+.btn-old {
+  background-color: #66BFBF;
+  color: white;
+  border-top: 1px solid #66BFBF;
+  border-right: 1px solid #66BFBF;
+  border-bottom: 1px solid #66BFBF;
+  border-left: 1px solid #66BFBF;
+  text-decoration: none;
+}
+*/
